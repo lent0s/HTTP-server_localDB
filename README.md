@@ -28,12 +28,12 @@ http://host/get                              ​ ​ ​ ​ ​ ​ ​ ​ // 
 **примеры curl команд:**  
 
 ​ ​ ​ ​ ​ ​ ​ ​ ​ **создание записи:**
-- curl -X POST http://localhost:8080/create -d "{\"name\": \"ANN-MARY\",   \"age\": 77}"
-- curl -X POST http://localhost:8080/create -d "{\"name\": \"Bella\",      \"age\": 33}"
-- curl -X POST http://localhost:8080/create -d "{\"name\": \"Chase\",      \"age\": 22}"
-- curl -X POST http://localhost:8080/create -d "{\"name\": \"Ma BiNT ho\", \"age\": 27}"  
+- curl -X POST    ​ ​ ​ http://localhost:8080/create            ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ -d "{"name": "ANN-MARY",                    "age": 77}"
+- curl -X POST    ​ ​ ​ http://localhost:8080/create            ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ -d "{"name": "Bella", ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ "age": 33}"
+- curl -X POST    ​ ​ ​ http://localhost:8080/create            ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ -d "{"name": "Chase",     ​ ​ ​ ​ ​ ​ ​ ​ ​ "age": 22}"
+- curl -X POST    ​ ​ ​ http://localhost:8080/create            ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ -d "{"name": "Ma BiNT ho",                  "age": 27}"  
 ​ ​ **изменение:**
-- curl -X POST http://localhost:8080/make_friends -d "{\"source_id\": 1, \"target_id\": 2}"
-- curl -X PUT http://localhost:8080/1 -d "{\"new age\": 44}"  
+- curl -X POST    ​ ​ ​ http://localhost:8080/make_friends                            -d "{\"source_id\": 1, \"target_id\": 2}"
+- curl -X PUT ​ ​ ​ ​ ​ http://localhost:8080/1 ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ -d "{\"new age\": 44}"  
 ​ ​ **уничтожение:**
-- curl -X DELETE http://localhost:8080/user -d "{\"target_id\": 2}"
+- curl -X DELETE        http://localhost:8080/user        ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ -d "{\"target_id\": 2}"
